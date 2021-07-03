@@ -3,7 +3,6 @@
 ![Test Status](https://img.shields.io/badge/Tests-passed-brightgreen?style=flat-square&logo=github)
 ![Lint Status](https://img.shields.io/badge/Lint-passed-brightgreen?style=flat-square&logo=github)
 ![GitHub issues](https://img.shields.io/github/issues/invipal/nanoid?style=flat-square&cacheSeconds=3600)
-![Downloads](https://img.shields.io/github/downloads/invipal/nanoid/total?style=flat-square&cacheSeconds=3600)
 ![License](https://img.shields.io/github/license/invipal/nanoid?style=flat-square&cacheSeconds=3600)
 ![Twitter Follow](https://img.shields.io/twitter/follow/invipal?style=flat-square&logo=twitter)
 ![Twitter Follow](https://img.shields.io/twitter/follow/oguzhankurnuc?style=flat-square&logo=twitter)
@@ -24,7 +23,7 @@ and has the same number of unique options in just 22 symbols instead of 36.
 Via vpm
 
 ```bash
-$ v install nanoid
+$ v install invipal.nanoid
 ```
 
 ## Usage
