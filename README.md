@@ -1,11 +1,11 @@
 # V NanoID
 
-![Test Status](https://img.shields.io/badge/Tests-passed-brightgreen?style=flat-square&logo=github)
-![Lint Status](https://img.shields.io/badge/Lint-passed-brightgreen?style=flat-square&logo=github)
-![GitHub issues](https://img.shields.io/github/issues/invipal/nanoid?style=flat-square&cacheSeconds=3600)
-![License](https://img.shields.io/github/license/invipal/nanoid?style=flat-square&cacheSeconds=3600)
-![Twitter Follow](https://img.shields.io/twitter/follow/invipal?style=flat-square&logo=twitter)
-![Twitter Follow](https://img.shields.io/twitter/follow/oguzhankurnuc?style=flat-square&logo=twitter)
+[![Test Status](https://img.shields.io/badge/Tests-passed-brightgreen?style=flat-square&logo=github)](https://github.com/invipal/nanoid/actions/)
+[![Lint Status](https://img.shields.io/badge/Lint-passed-brightgreen?style=flat-square&logo=github)](https://github.com/invipal/nanoid/actions/)
+[![GitHub issues](https://img.shields.io/github/issues/invipal/nanoid?style=flat-square&cacheSeconds=3600)](https://github.com/invipal/nanoid/issues)
+[![License](https://img.shields.io/github/license/invipal/nanoid?style=flat-square&cacheSeconds=3600)](LICENSE.md)
+[![Twitter Follow](https://img.shields.io/twitter/follow/invipal?style=flat-square&logo=twitter)](https://twitter.com/invipal)
+[![Twitter Follow](https://img.shields.io/twitter/follow/oguzhankurnuc?style=flat-square&logo=twitter)](https://twitter.com/oguzhankurnuc)
 
 This package is V implementation of [NanoID](https://github.com/ai/nanoid)
 
