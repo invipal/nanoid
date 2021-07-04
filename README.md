@@ -37,7 +37,7 @@ id := nanoid.new() or { 'error' }
 Generate ID with a custom alphabet and length
 
 ```v
-id := nanoid.generate("erzurum", 25) or { 'error' }
+id := nanoid.generate('erzurum', 25) or { 'error' }
 ```
 
 ## Contribution
