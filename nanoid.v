@@ -41,7 +41,7 @@ pub fn generate(alphabet string, size int) ?string {
 
 	mut id := []rune{len: size}
 	// bytes := []byte{len: step}
-	bytes := rand.read(step) or { return error(err.msg) }
+	bytes := rand.read(step) or { return error(err.msg()) }
 	for j := 0; true; {
 		for i := 0; i < step; i++ {
 			curr_byte := bytes[i] & byte(mask)
@@ -60,7 +60,7 @@ pub fn generate(alphabet string, size int) ?string {
 
 // must_generate is the same as generate but panics on error.
 pub fn must_generate(alphabet string, size int) string {
-	id := generate(alphabet, size) or { panic(err.msg) }
+	id := generate(alphabet, size) or { panic(err.msg()) }
 	return id
 }
 
@@ -79,7 +79,7 @@ pub fn new(l ...int) ?string {
 		return error('unexpected parameter')
 	}
 
-	bytes := rand.read(size) or { return error(err.msg) }
+	bytes := rand.read(size) or { return error(err.msg()) }
 
 	mut id := []rune{len: size}
 	for i := 0; i < size; i++ {
@@ -91,6 +91,6 @@ pub fn new(l ...int) ?string {
 
 // must is the same as new but panics on error.
 pub fn must(l ...int) string {
-	id := new(...l) or { panic(err.msg) }
+	id := new(...l) or { panic(err.msg()) }
 	return id
 }
