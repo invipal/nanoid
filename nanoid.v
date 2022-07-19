@@ -44,8 +44,8 @@ pub fn generate(alphabet string, size int) ?string {
 	bytes := rand.read(step) or { return error(err.msg()) }
 	for j := 0; true; {
 		for i := 0; i < step; i++ {
-			curr_byte := bytes[i] & byte(mask)
-			if curr_byte < byte(chars.len) {
+			curr_byte := bytes[i] & u8(mask)
+			if curr_byte < u8(chars.len) {
 				id[j] = chars[curr_byte]
 				j++
 				if j == size {
